@@ -4,11 +4,6 @@ import util.JedisUtil;
 
 import java.util.Set;
 
-/**
- * @Author: qingshan
- * @Date: 2019/9/19 23:35
- * @Description: 咕泡学院，只为更好的你
- */
 public class ZSetTest {
     public static void main(String[] args) {
         JedisUtil.getJedisUtil().zadd("myzset", 20, "java");

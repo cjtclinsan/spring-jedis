@@ -3,9 +3,6 @@ package datatype;
 import redis.clients.jedis.Jedis;
 
 /**
- * @Author: qingshan
- * @Date: 2019/9/26 15:22
- * @Description: 咕泡学院，只为更好的你
  * pfadd,  pfcount,  pfmerge
  */
 public class HyperLogLogTest {

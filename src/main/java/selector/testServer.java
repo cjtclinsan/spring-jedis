@@ -9,11 +9,6 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
-/**
- * @Author: qingshan
- * @Date: 2019/9/22 13:13
- * @Description: 咕泡学院，只为更好的你
- */
 public class testServer {
     public static void main(String[] args) throws IOException {
         serverStart();

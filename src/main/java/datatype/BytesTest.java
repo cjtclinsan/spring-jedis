@@ -7,11 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
-
 /**
- * @Author: qingshan
- * @Date: 2019/9/20 12:31
- * @Description: 咕泡学院，只为更好的你
  * 放了一张图片进去
  */
 public class BytesTest {

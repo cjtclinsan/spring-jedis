@@ -4,11 +4,6 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * @Author: qingshan
- * @Date: 2019/9/21 14:06
- * @Description: 咕泡学院，只为更好的你
- */
 public class CyclicBarrierTest {
     public static void main(String[] args) {
         int count = 100;

@@ -6,11 +6,6 @@ import java.util.HashSet;
 import java.util.Properties;
 import java.util.Set;
 
-/**
- * @Author: qingshan
- * @Date: 2019/9/24 14:50
- * @Description: 咕泡学院，只为更好的你
- */
 public class JedisSentinelTest {
     private static JedisSentinelPool pool;
 
