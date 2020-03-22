@@ -11,7 +11,7 @@ public class PipelineGet {
     public static void main(String[] args) {
 //        new Thread(){
 //            public void run(){
-//                Jedis jedis = new Jedis("120.26.67.233", 6379);
+//                Jedis jedis = new Jedis("127.0.0.1", 6379);
 //                Set<String> keys = jedis.keys("batch*");
 //                List<String> result = new ArrayList();
 //                long t1 = System.currentTimeMillis();
@@ -27,7 +27,7 @@ public class PipelineGet {
 
         new Thread(){
             public void run(){
-                Jedis jedis = new Jedis("120.26.67.233", 6379);
+                Jedis jedis = new Jedis("127.0.0.1", 6379);
                 //jedis.auth("Qingshan@gupao666");
                 Set<String> keys = jedis.keys("batch*");
                 List<Object> result = new ArrayList();

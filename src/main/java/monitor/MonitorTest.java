@@ -8,7 +8,7 @@ import java.util.List;
 
 public class MonitorTest {
     public static void main(String[] args) {
-        Jedis jedis = new Jedis("120.26.67.233", 6379);
+        Jedis jedis = new Jedis("127.0.0.1", 6379);
         //获取10万条命令
         jedis.monitor(new JedisMonitor() {
             @Override

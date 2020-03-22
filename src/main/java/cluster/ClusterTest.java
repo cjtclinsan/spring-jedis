@@ -13,9 +13,9 @@ public class ClusterTest {
 /*        HostAndPort hp1 = new HostAndPort("192.168.8.207",7291);
         HostAndPort hp2 = new HostAndPort("192.168.8.207",7292);
         HostAndPort hp3 = new HostAndPort("192.168.8.207",7293);*/
-        HostAndPort hp4 = new HostAndPort("120.26.67.233",7294);
-        HostAndPort hp5 = new HostAndPort("120.26.67.233",7295);
-        HostAndPort hp6 = new HostAndPort("120.26.67.233",7296);
+        HostAndPort hp4 = new HostAndPort("127.0.0.1",7294);
+        HostAndPort hp5 = new HostAndPort("127.0.0.1",7295);
+        HostAndPort hp6 = new HostAndPort("127.0.0.1",7296);
 
         Set nodes = new HashSet<HostAndPort>();
 /*        nodes.add(hp1);

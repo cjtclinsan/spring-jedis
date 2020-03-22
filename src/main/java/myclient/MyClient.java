@@ -63,7 +63,7 @@ public class MyClient {
     }
 
     public static void main(String[] args) throws IOException {
-        MyClient client = new MyClient("120.26.67.233", 7292);
+        MyClient client = new MyClient("127.0.0.1", 7292);
         client.set("tc", "6666");
         client.get("tc");
     }

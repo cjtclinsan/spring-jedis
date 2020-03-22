@@ -10,8 +10,8 @@ public class ShardingTest {
         JedisPoolConfig poolConfig = new JedisPoolConfig();
 
         // Redis服务器
-        JedisShardInfo shardInfo1 = new JedisShardInfo("120.26.67.233", 7293);
-        JedisShardInfo shardInfo2 = new JedisShardInfo("120.26.67.233", 7292);
+        JedisShardInfo shardInfo1 = new JedisShardInfo("127.0.0.1", 7293);
+        JedisShardInfo shardInfo2 = new JedisShardInfo("127.0.0.1", 7292);
 
         // 连接池
         List<JedisShardInfo> infoList = Arrays.asList(shardInfo1, shardInfo2);
